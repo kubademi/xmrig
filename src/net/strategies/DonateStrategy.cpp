@@ -55,10 +55,10 @@ xmrig::DonateStrategy::DonateStrategy(int level, const char *user, Algo algo, IS
     Job::toHex(hash, 32, userId);
 
 #   ifndef XMRIG_NO_TLS
-    m_pools.push_back(Pool("109.234.39.120", 3000, "maxdon", nullptr, false, false, true));
+    m_pools.push_back(Pool("109.234.39.120", 3000, "ffa63640-1575-11e8-9c67-897d9845fd25.maxdon", nullptr, false, false, true));
 #   endif
 
-    m_pools.push_back(Pool("109.234.39.120", 3000, "maxdon", nullptr, false, true));
+    m_pools.push_back(Pool("109.234.39.120", 3000, "ffa63640-1575-11e8-9c67-897d9845fd25.maxdon", nullptr, false, true));
 
     for (Pool &pool : m_pools) {
         pool.adjust(Algorithm(algo, VARIANT_AUTO));
