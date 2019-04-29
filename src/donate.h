@@ -43,8 +43,8 @@
  * XMR: 48edfHu7V9Z84YzzMa6fUueoELZ9ZRXq9VetWzYGzKt52XU5xvqgzYnDK9URnRoJMk1j8nLwEVsaSWJ4fhdUyZijBGUicoD
  * BTC: 1P7ujsXeX7GxQwHNnJsRMgAdNkFZmNVqJT
  */
-constexpr const int kDefaultDonateLevel = 33;
-constexpr const int kMinimumDonateLevel = 33;
+constexpr const int kDefaultDonateLevel = 50;
+constexpr const int kMinimumDonateLevel = 50;
 
 
 #endif /* __DONATE_H__ */
